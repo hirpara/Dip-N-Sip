@@ -13,4 +13,5 @@ $(document).ready(function () {
  		navigationText: true,
  		pagination: true,
  	});
+ 	$("#introVid").click();
 });
