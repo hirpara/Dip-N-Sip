@@ -14,4 +14,6 @@ $(document).ready(function () {
  		pagination: true,
  	});
  	$("#introVid").click();
+ 		 // FOR SCROLL ANIMATIONS
+    window.scrollReveal = new scrollReveal();
 });
