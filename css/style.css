@@ -221,7 +221,8 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .clr-2 {background:#836eaa;}
 /*--//about-*/ 
 /*--services-*/ 
-.service{ background: url(../images/s1.jpg) no-repeat 0px 0px;
+.service{ 
+    background: #4E2A83;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -253,7 +254,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 .ser-inner-info h4 {
     font-size: 21px;
-    color: #000;
+    color: #fff;
     letter-spacing: 2px;
     margin: 17px 0px;
 }
@@ -273,9 +274,9 @@ nav.navbar.navbar-expand-lg.navbar-light {
     border: 2px solid #fff;
     margin: 0 15px;
 }
-.white-shadow:hover span.banner-icon {
+/*.white-shadow:hover span.banner-icon {
     color:#ff0e83;
-}
+}*/
 .outs-agile-buttn a:hover {
     color: #000;
      border: 2px solid #ff0e83;
@@ -343,7 +344,8 @@ font-size:21px;}
 .text { color: #fff; position: absolute; top: 37%; left: 30%; transform: translate(-26%, -26%); -ms-transform: translate(-26%, -26%); right: 0; font-weight: 400; font-size: 16px; }
 /*-- //team --*/
 /*--testimonials-*/ 
-.testimonials{ background: url(../images/cc1.jpg) no-repeat 0px 0px;
+.testimonials{ 
+    background: #ff0e83;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -351,7 +353,6 @@ font-size:21px;}
     -ms-background-size: cover;
 }
 .text-image-agileits-w3layouts {
-    background: url(../images/test.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -551,7 +552,6 @@ font-size:21px;}
     height: 40px;
     border: none;
     text-indent: 100%;
-    background: url("../images/to-top.png") no-repeat 0px 0px;
     background-size: 40px;
 }
 
@@ -1148,7 +1148,6 @@ h1 a.navbar-brand {
 
 .footer-top {
   background-color: #fc3a75;
-  background-image: url("../images/color-texture.png");
   background-repeat: repeat;
   padding: 3em 0;
   text-align: center; }
@@ -1204,51 +1203,15 @@ h1 a.navbar-brand {
   width: 41px;
   height: 41px;
   background-position: -3262px 0;
-  background-image: url(../spritesheets-svg/sprites-69c6e870.svg);
   -webkit-background-size: 8642px 265px;
   background-size: 8642px 265px; }
-  .no-svg .footer-icon_facebook {
-    background-image: url(../spritesheets-svg/sprites-d7034c4a.png); }
 
 .footer-icon_instagram {
   width: 41px;
   height: 41px;
   background-position: -4840px 0;
-  background-image: url(../spritesheets-svg/sprites-69c6e870.svg);
   -webkit-background-size: 8642px 265px;
   background-size: 8642px 265px; }
-  .no-svg .footer-icon_instagram {
-    background-image: url(../spritesheets-svg/sprites-d7034c4a.png); }
-
-.footer-icon_twitter {
-  width: 41px;
-  height: 41px;
-  background-position: -8264px 0;
-  background-image: url(../spritesheets-svg/sprites-69c6e870.svg);
-  -webkit-background-size: 8642px 265px;
-  background-size: 8642px 265px; }
-  .no-svg .footer-icon_twitter {
-    background-image: url(../spritesheets-svg/sprites-d7034c4a.png); }
-
-.footer-icon_pinterest {
-  width: 41px;
-  height: 41px;
-  background-position: -6850px 0;
-  background-image: url(../spritesheets-svg/sprites-69c6e870.svg);
-  -webkit-background-size: 8642px 265px;
-  background-size: 8642px 265px; }
-  .no-svg .footer-icon_pinterest {
-    background-image: url(../spritesheets-svg/sprites-d7034c4a.png); }
-
-.footer-icon_googleplus {
-  width: 41px;
-  height: 41px;
-  background-position: -3612px 0;
-  background-image: url(../spritesheets-svg/sprites-69c6e870.svg);
-  -webkit-background-size: 8642px 265px;
-  background-size: 8642px 265px; }
-  .no-svg .footer-icon_googleplus {
-    background-image: url(../spritesheets-svg/sprites-d7034c4a.png); }
 
 
 .footer-links {
