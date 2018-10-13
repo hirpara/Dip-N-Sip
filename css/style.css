@@ -1239,3 +1239,32 @@ footer a{
         color: #fff;
     }
 }
+#features img{
+    width: 105px;
+}
+#available .imageDiv{
+    margin: 0 auto;width: 50%;
+}
+#available .imageDiv .flipkart{
+    width: auto;height: 60px;padding: 10px;margin: 0 auto;
+}
+#available .imageDiv .amazon{
+    width: auto;height: 60px;padding:15px 10px 0px 10px;margin: 0 auto;
+}
+@media only screen and (max-width: 768px){
+    #available .imageDiv{
+        margin: 0 auto;width: 100%;
+    }
+    #available .imageDiv .flipkart{
+        width: auto;height: 30px;padding: 0px;margin: 0 auto;
+    }
+    #available .imageDiv .amazon{
+        width: auto;height: 30px;padding: 0;margin: 5px auto 0;
+    }
+}
+#regain{
+    border-bottom: 1px solid #ccc;background-color:#2D417D;
+}
+#regain .title, #regain p{
+    color: #fff;
+}
