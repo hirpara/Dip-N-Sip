@@ -7,35 +7,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 @font-face {
   font-family: 'GRAPHIK-BLACK';
-  src: url('../fonts/GRAPHIK-BLACK.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-BLACK.TTF') format('truetype');
 }
 @font-face {
   font-family: 'GRAPHIK-BOLD';
-  src: url('../fonts/GRAPHIK-BOLD.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-BOLD.TTF') format('truetype');
 }
 @font-face {
   font-family: 'GRAPHIK-LIGHT';
-  src: url('../fonts/GRAPHIK-LIGHT.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-LIGHT.TTF') format('truetype');
 }
 @font-face {
   font-family: 'GRAPHIK-MEDIUM';
-  src: url('../fonts/GRAPHIK-MEDIUM.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-MEDIUM.TTF') format('truetype');
 }
 @font-face {
   font-family: 'GRAPHIK-REGULAR';
-  src: url('../fonts/GRAPHIK-REGULAR.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-REGULAR.TTF') format('truetype');
 }
 @font-face {
   font-family: 'GRAPHIK-SEMIBOLD';
-  src: url('../fonts/GRAPHIK-SEMIBOLD.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-SEMIBOLD.TTF') format('truetype');
 }
 @font-face {
   font-family: 'GRAPHIK-SUPER';
-  src: url('../fonts/GRAPHIK-SUPER.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-SUPER.TTF') format('truetype');
 }
 @font-face {
   font-family: 'GRAPHIK-THIN';
-  src: url('../fonts/GRAPHIK-THIN.ttf') format('truetype');
+  src: url('../fonts/GRAPHIK-THIN.TTF') format('truetype');
 }
 html,
 body {
