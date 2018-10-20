@@ -1321,3 +1321,46 @@ footer{
         font-size: 1rem;
     }
 }
+.homesection{
+    padding: 100px 50px 80px 50px;
+}
+.videoDiv{
+    padding: 24px;
+}
+
+.button {
+    background-color: #cc1e5b;
+    display: inline-block;
+    position: relative;
+    border: 3px solid #703080;
+    color: #dedede;
+    font-weight: 600;
+    border-radius: 40px;
+    -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 1;
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:hover{
+    color: #fff;
+}
+.buttonPatch{
+    padding:30px;
+    background-color: #311162;
+    color: #fff;
+}
+@media only screen and (max-width: 768px){
+  .homesection{
+        padding: 12px 12px 30px 12px;
+    }  
+    .button{
+        font-size: 15px;
+    }
+}
