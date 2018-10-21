@@ -5,37 +5,22 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
 @font-face {
-  font-family: 'GRAPHIK-BLACK';
-  src: url('../fonts/GRAPHIK-BLACK.TTF') format('truetype');
+  font-family: 'Arial-Rounded';
+  src: url('../fonts/Arial-Rounded.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'GRAPHIK-BOLD';
-  src: url('../fonts/GRAPHIK-BOLD.TTF') format('truetype');
+  font-family: 'Arial-RoundedBold';
+  src: url('../fonts/Arial-RoundedBold.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'GRAPHIK-LIGHT';
-  src: url('../fonts/GRAPHIK-LIGHT.TTF') format('truetype');
+  font-family: 'Questrial';
+  src: url('../fonts/Questrial-Regular.otf') format('opentype');
 }
 @font-face {
-  font-family: 'GRAPHIK-MEDIUM';
-  src: url('../fonts/GRAPHIK-MEDIUM.TTF') format('truetype');
-}
-@font-face {
-  font-family: 'GRAPHIK-REGULAR';
-  src: url('../fonts/GRAPHIK-REGULAR.TTF') format('truetype');
-}
-@font-face {
-  font-family: 'GRAPHIK-SEMIBOLD';
-  src: url('../fonts/GRAPHIK-SEMIBOLD.TTF') format('truetype');
-}
-@font-face {
-  font-family: 'GRAPHIK-SUPER';
-  src: url('../fonts/GRAPHIK-SUPER.TTF') format('truetype');
-}
-@font-face {
-  font-family: 'GRAPHIK-THIN';
-  src: url('../fonts/GRAPHIK-THIN.TTF') format('truetype');
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 html,
 body {
@@ -43,8 +28,9 @@ body {
     margin: 0;
     background: #fff;
     letter-spacing: 1px;
-    font-family: 'GRAPHIK-REGULAR';
+    font-family: 'Arial-Rounded';
     overflow-x: hidden; 
+    /*      */
 }
 
 body a {
@@ -56,7 +42,11 @@ body a {
     -ms-transition: 0.5s all;
     text-decoration: none;
 }
-
+.subtextHeading{
+    font-size: 1.3rem;
+    font-family: 'OpenSans';
+    margin-bottom: 45px;
+}
 body a:hover {
     text-decoration: none;
 }
@@ -95,7 +85,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-family: 'GRAPHIK-SEMIBOLD';
+    font-family: 'Arial-RoundedBold';
     letter-spacing: 1px;
 }
 
@@ -103,7 +93,7 @@ p {
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
-    font-family: 'GRAPHIK-REGULAR';
+    font-family: 'Arial-Rounded';
 }
 
 
@@ -166,7 +156,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 .navbar-light .navbar-nav .nav-link {
     color: #4E2A83;
-    font-family: 'GRAPHIK-SEMIBOLD';
+    font-family: 'Arial-RoundedBold';
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -285,6 +275,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     font-size: 21px;
     letter-spacing: 2px;
     margin: 17px 0px;
+    font-family: 'Arial-Rounded';
 }
 .ser-inner-info p {
     line-height: 25px;
@@ -373,7 +364,7 @@ font-size:21px;}
 /*-- //team --*/
 /*--testimonials-*/ 
 .testimonials{ 
-    background: #2D417D;
+    background: #703080;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -389,15 +380,16 @@ font-size:21px;}
     min-height: 416px;
 }
 .test-name h5 {
-    font-size: 15px;
+    font-size: 21px;
     color: #fff;
     letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 .test-review p {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 33px;
     padding: 0px;
     letter-spacing: 1.3px;
     color:#000;
@@ -405,7 +397,7 @@ font-size:21px;}
 .textagile p span.fa-quote-left, .textagile p span.fa-quote-right {
     font-size: 21px;
     padding: 0px 18px;
-    color: #362369;
+    color: #cc1e5b;
 }
 .test-monials {
     background:rgba(255, 255, 255, 0.5);
@@ -1271,13 +1263,13 @@ footer a{
     width: 105px;
 }
 #available .imageDiv{
-    margin: 0 auto;width: 50%;
+    margin: 0 auto;width: 60%;
 }
 #available .imageDiv .flipkart{
-    width: auto;height: 60px;margin: 0 auto;
+    width: auto;height: 75px;margin: 0 auto;
 }
 #available .imageDiv .amazon{
-    width: auto;height: 60px;margin: 15px auto 0 auto;
+    width: auto;height: 75px;margin: 5px auto 0 auto;
 }
 @media only screen and (max-width: 768px){
     #available .imageDiv{
@@ -1291,13 +1283,13 @@ footer a{
     }
 }
 #regain{
-    border-bottom: 1px solid #ccc;background-color:#2D417D;
+    border-bottom: 1px solid #ccc;background-color:#703080;
 }
 #regain .title, #regain p{
     color: #fff;
 }
 footer{
-    background-color: #2D417D;
+    background-color: #311162;
     color: #fff;
     padding-top: 24px;
 }
@@ -1322,7 +1314,7 @@ footer{
     }
 }
 .homesection{
-    padding: 100px 50px 80px 50px;
+    padding: 70px 50px 80px 50px;
 }
 .videoDiv{
     padding: 24px;
@@ -1332,8 +1324,7 @@ footer{
     background-color: #cc1e5b;
     display: inline-block;
     position: relative;
-    border: 3px solid #703080;
-    color: #dedede;
+    color: #fff;
     font-weight: 600;
     border-radius: 40px;
     -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -1350,17 +1341,32 @@ footer{
 }
 .button:hover{
     color: #fff;
+    background-color: #f9699c;
 }
 .buttonPatch{
-    padding:30px;
+    padding:40px 30px;
     background-color: #311162;
     color: #fff;
 }
+.aboutusSection p{
+    font-family: 'Questrial';
+    font-size: 20px;
+}
 @media only screen and (max-width: 768px){
   .homesection{
-        padding: 12px 12px 30px 12px;
+        padding: 12px 0px 30px 0px;
     }  
     .button{
         font-size: 15px;
     }
+    .subtextHeading{
+            font-size: 1.3rem;
+            font-family: 'OpenSans';
+            margin-bottom: 20px;
+        }
+    .aboutusSection p {
+        font-family: 'Questrial';
+        font-size: 18px;
+    }
 }
+

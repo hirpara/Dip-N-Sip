@@ -9,7 +9,7 @@ $(document).ready(function () {
  	$("#owl-demo").owlCarousel({
  		items: 1,
  		lazyLoad: true,
- 		autoPlay: true,
+ 		autoPlay: false,
  		navigation:false,
  		navigationText: true,
  		pagination: true,
