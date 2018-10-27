@@ -1363,6 +1363,7 @@ footer{
 .giftingImage img{
     width: 50%;
 }
+
 @media only screen and (max-width: 768px){
   .homesection{
         padding: 35px 0px 30px 0px;
@@ -1394,5 +1395,73 @@ footer{
     .aboutusSection{
         padding-bottom: 30px;
     }
+    .hedder-up{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-toggler:not(:disabled):not(.disabled){
+        position: absolute;
+        right: 15px;
+        top: 12px;
+    }
+     #regain{
+        margin-top: 72px;
+    }
 }
-
+@media only screen and (min-width: 768px){
+    .navbar-expand-lg .navbar-collapse{
+        text-align: center;
+        flex: none;
+        display: block !important;
+        width: 100%;
+    }
+    .navbar-expand-lg .navbar-nav{
+        display: block;
+        width: 100%;
+    }
+    .navbar-expand-lg .navbar-nav li{
+        list-style: none;
+        display: inline-block;
+    }
+    .navbar {
+        position: relative;
+        display: -webkit-box;
+        display: block;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+    .hedder-up{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: block!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+    .navbar-nav {
+        display: block;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .navbar-nav li{
+        display: inline-block;
+    }
+    #regain{
+        margin-top: 124px;
+    }
+}
