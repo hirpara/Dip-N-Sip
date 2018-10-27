@@ -1350,7 +1350,8 @@ footer{
 }
 .aboutusSection p{
     font-family: 'Questrial';
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 31px;
 }
 .giftingImage .leftImg{
     padding-right:100px;
@@ -1378,6 +1379,7 @@ footer{
     .aboutusSection p {
         font-family: 'Questrial';
         font-size: 17px;
+        line-height: 25px;
     }
     .giftingImage .leftImg{
         padding-right:0;
